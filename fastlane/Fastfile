@@ -120,3 +120,4 @@ error do |lane, exception|
   	end
     # Mac OS X Notification
     notification(message: "Fastlane error in lane '#{lane}'")in
+end
