@@ -119,5 +119,5 @@ error do |lane, exception|
 	    reset_git_repo(skip_clean: true, force: true)
   	end
     # Mac OS X Notification
-    notification(message: "Fastlane error in lane '#{lane}'")in
+    notification(message: "Fastlane error in lane '#{lane}'")
 end
